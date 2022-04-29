@@ -52,4 +52,13 @@ footer h2{
         height: 900px;
         padding: 10px;
     }
+    .input-field label,textarea{
+        font-size: 10px;
+    }
+    .input-field.input{
+        outline: none;
+        border: 1 px solid black;
+        font-size: 10px;
+        padding: 8px;
+    }
 }
