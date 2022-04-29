@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 10px;
+}
+.main{
+    max-width: 500px;
+    width: 100%;
+    height: 900px;
+    padding: 50px;
+    margin: auto;
+}
+.form
+{   
+    width: 100%;
+}
+.input-field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.input-field label,textarea{
+    width: 200px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.textarea{
+    height: 125px;
+}
+.input-field.input{
+    outline: none;
+    border: 1 px solid black;
+    font-size: 15px;
+    padding: 8px;
+}
+footer h1{
+    font-size: 20px;
+}
+footer h2{
+    font-size: 15px;
+    text-align: justify;
+}
+@media screen and(max-width:420px){
+    .main{
+        width: 100%;
+        height: 900px;
+        padding: 10px;
+    }
+}
